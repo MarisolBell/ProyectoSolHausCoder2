@@ -1,61 +1,70 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import logoSolHaus from "../../img/logoSolHaus.png";
-import { Link } from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = () => {
-  // Estado para el menú hamburguesa
   const [menuOpen, setMenuOpen] = useState(false);
-
-  // Estado para la barra de búsqueda
   const [searchOpen, setSearchOpen] = useState(false);
 
-  // Función para alternar el menú hamburguesa
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
-  // Función para alternar la barra de búsqueda
   const toggleSearch = () => {
     setSearchOpen(!searchOpen);
   };
 
   return (
     <div className="nav-menu">
-   
-      <Link to="/">
+      <NavLink to="/">
         <img className="logo" src={logoSolHaus} alt="Logo de Sol Haus" />
-      </Link>
+      </NavLink>
 
-    
       <nav className={`nav ${menuOpen ? "visible" : ""}`}>
         <ul className="menu">
           <li className="menu__item">
-            <Link to="/">Inicio</Link>
+            <NavLink to="/" className={({ isActive }) => (isActive ? "active-link" : "")}>
+              Inicio
+            </NavLink>
           </li>
           <li className="menu__item productos">
-            <Link to="/productos">Productos</Link>
+            <NavLink to="/productos" className={({ isActive }) => (isActive ? "active-link" : "")}>
+              Productos
+            </NavLink>
             <ul className="submenu">
               <li>
-                <Link to="/productos/bazar">Bazar</Link>
+                <NavLink to="/productos/bazar" className={({ isActive }) => (isActive ? "active-link" : "")}>
+                  Bazar
+                </NavLink>
               </li>
               <li>
-                <Link to="/productos/organizacion">Organización del hogar</Link>
+                <NavLink to="/productos/organizacion" className={({ isActive }) => (isActive ? "active-link" : "")}>
+                  Organización del hogar
+                </NavLink>
               </li>
               <li>
-                <Link to="/productos/reposteria">Repostería</Link>
+                <NavLink to="/productos/reposteria" className={({ isActive }) => (isActive ? "active-link" : "")}>
+                  Repostería
+                </NavLink>
               </li>
               <li>
-                <Link to="/productos/viajes">Viajes</Link>
+                <NavLink to="/productos/viajes" className={({ isActive }) => (isActive ? "active-link" : "")}>
+                  Viajes
+                </NavLink>
               </li>
             </ul>
           </li>
           <li className="menu__item">
-            <Link to="/informacion">Información</Link>
+            <NavLink to="/informacion" className={({ isActive }) => (isActive ? "active-link" : "")}>
+              Información
+            </NavLink>
           </li>
           <li className="menu__item">
-            <Link to="#">Contacto</Link>
+            <NavLink to="/contacto" className={({ isActive }) => (isActive ? "active-link" : "")}>
+              Contacto
+            </NavLink>
           </li>
           <li className="dropdown">
             <button className="dropdown-user-btn">
@@ -63,38 +72,32 @@ const NavBar = () => {
             </button>
             <ul className="dropdown-content">
               <li>
-                <Link to="#">Iniciar sesión</Link>
+                <NavLink to="/register" className={({ isActive }) => (isActive ? "active-link" : "")}>
+                  Iniciar sesión
+                </NavLink>
               </li>
               <li>
-                <Link to="#">Registrarse</Link>
+                <NavLink to="/register" className={({ isActive }) => (isActive ? "active-link" : "")}>
+                  Registrarse
+                </NavLink>
               </li>
             </ul>
           </li>
         </ul>
       </nav>
 
-
       <div className="right-icons">
-        {/* Botón de búsqueda */}
         <button type="button" className="search-btn" onClick={toggleSearch}>
           <i className="bi bi-search"></i>
         </button>
 
         {searchOpen && (
-          <input
-            type="text"
-            className="search-input"
-            placeholder="Buscar productos..."
-          />
+          <input type="text" className="search-input" placeholder="Buscar productos..." />
         )}
 
-       
-
-        <CartWidget menuOpen={menuOpen}/>
-       
+        <CartWidget menuOpen={menuOpen} />
       </div>
 
-   
       <button className="hamburger" onClick={toggleMenu}>
         <i className={menuOpen ? "bi bi-x" : "bi bi-list"}></i>
       </button>
