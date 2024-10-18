@@ -1,0 +1,365 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pinza para tostadas",
+    "descripcion": "Deja de quemarte los dedos cada mañana para sacar las tostadas o meter cuchillos en la tostadora para recortarlas!.",
+    "imagen": "../assets/imagenPinza.jpeg",
+    "precio": 2950,
+    "stock": 7,
+    "categoria": "bazar",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 2,
+    "nombre": "Espátula ancha silicona",
+    "descripcion": "Espátula 100% de silicona, sin juntas ni uniones, lo que facilita su limpieza y le da mayor durabilidad. Ideal para panqueques, tortillas, cabezones, tortas o pescados.",
+    "imagen": "../assets/imagenEspatulaAncha.webp",
+    "precio": 7500,
+    "stock": 5,
+    "categoria": "bazar",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 3,
+    "nombre": "6 tapas de silicona reutilizables",
+    "descripcion": "Set de 6 tapas de silicona de distintos tamaños.Flexibles, se adaptan a varias formas de contenedores.Aptas para freezer, lavaplatos y microondas.",
+    "imagen": "../assets/imagenTapasSilicona.jpeg",
+    "precio": 6900,
+    "stock": 8,
+    "categoria": "bazar",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 4,
+    "nombre": "Cuchara corazón",
+    "descripcion": "Cuchara de silicona con mango de madera. Se venden por unidad. Soportan hasta 240.Medidas 27,5 x 6,5 cm.",
+    "imagen": "../assets/imagenCucharaCorazon.jpeg",
+    "precio": 4300,
+    "stock": 6,
+    "categoria": "bazar",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 5,
+    "nombre": "Molde antiadherente muffin/cupcake",
+    "descripcion": "Su superficie antiadherente permite preparaciones prolijas y fáciles de desmoldar. Color gris oscuro.Medidas: 26x18 cm.Cada muffin mide 5 cm en la base x 6 cm en la superficie y 3 cm de altura.",
+    "imagen": "../assets/imagenMoldeMuffin.jpg",
+    "precio": 9800,
+    "stock": 3,
+    "categoria": "bazar",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 6,
+    "nombre": "Cubetera de silicona con tapa",
+    "descripcion": "Superficie antiadherente de silicona, fácil de limpiar. No retiene olores ni sabores.Medidas total: 25cm largo x 10cm ancho x 3cm alto.Medida de cada cavidad: 2.5cm x 2.5cm x 3cm.",
+    "imagen": "../assets/imagenCubeteraConTapa.jpg",
+    "precio": 7800,
+    "stock": 3,
+    "categoria": "bazar",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 7,
+    "nombre": "Escurridor/secaplatos plegable",
+    "descripcion": "Práctico escurridor de acero y silicona. Apoyalo en la Bacha, úsalo plegarlo y guardarlo en el cajón o donde quieras.Medidas 47 x 23 cm",
+    "imagen": "../assets/imagenEscurridorPlegable.webp",
+    "precio": 5700,
+    "stock": 4,
+    "categoria": "bazar",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 8,
+    "nombre": "Espátula de silicona 21 cm",
+    "descripcion": "Espátula 100% de silicona, sin juntas ni uniones, lo que facilita su limpieza y le da mayor durabilidad. Soportan hasta 240°.Apto para lavavajillas.",
+    "imagen": "../assets/imagenEspatulaSilicona.jpeg",
+    "precio": 4700,
+    "stock": 10,
+    "categoria": "bazar",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 9,
+    "nombre": "Utensilios de silicona",
+    "descripcion": "Espumadera, cucharón y espátula.Material: Silicona. Medidas: 30 cm de largo",
+    "imagen": "../assets/imagenUtensiliosSilicona.jpeg",
+    "precio": 16500,
+    "stock": 4,
+    "categoria": "bazar",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 10,
+    "nombre": "Bolsa térmica XL",
+    "descripcion": "Bolsa Térmica con velcro para conservar la temperatura. Medidas: Ancho 42 cm, alto 51 cm, fuelle 41 cm.",
+    "imagen": "../assets/imagenBolsaTermica.jpg",
+    "precio": 9900,
+    "stock": 6,
+    "categoria": "bazar",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 11,
+    "nombre": "Molde de silicona unicornio",
+    "descripcion":"Molde de silicona, material antiadherente para preparar bombones y/o gomitas.Apto para horno convencional, heladera, lavavajillas, microondas y freezer. Medida: 12x15 cms.",
+    "imagen": "../assets/imagenMoldeUnicornio.jpeg",
+    "precio": 4300,
+    "stock": 5,
+    "categoria": "reposteria",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 12,
+    "nombre": "Espátula levanta tortas de acero inoxidable",
+    "descripcion": "Con esta práctica herramienta, mover tus tortas es mucho más fácil.Mango de silicona antideslizante.Apto lavavajillas.Hoja de acero inoxidable de alta calidad. ",
+    "imagen": " ../assets/imagenEspatulaAcero.png",
+    "precio": 7900,
+    "stock": 2,
+    "categoria": "reposteria",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 13,
+    "nombre": "Manga de silicona picos",
+    "descripcion": "Manga de Silicona con 7 picos metálicos.Material anti-adherente. Fácil de lavar.",
+    "imagen": " ../assets/imagenMangaSilicona.jpeg",
+    "precio": 5500,
+    "stock": 5,
+    "categoria": "reposteria",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 14,
+    "nombre": "Palo de amasar",
+    "descripcion": "Rodillo de Plástico con anillos Removibles para diferentes Grosores de Masa.Hecho de 100% plástico grado alimenticio de alta calidad con una superficie no porosa.Antiadherente",
+    "imagen": " ../assets/imagenPaloAmasar.jpg",
+    "precio": 6700,
+    "stock": 7,
+    "categoria": "reposteria",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 15,
+    "nombre": "Termómetro de cocina",
+    "descripcion": "Termómetro de cocina para horno analógico de acero inoxidable. Resistente al calor.Temperatura: 50 a 300 °C.",
+    "imagen": " ../assets/imagenTermometroHorno.jpg",
+    "precio": 6900,
+    "stock": 4,
+    "categoria": "reposteria",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 16,
+    "nombre": "Cortante de galletitas T-Rex",
+    "descripcion": "Cortante para galletitas con forma de dinosaurio.Material Plástico.Medidas 14 x 9 cms.",
+    "imagen": " ../assets/imagenCortanteTrex.jpeg",
+    "precio": 4300,
+    "stock": 5,
+    "categoria": "reposteria",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 17,
+    "nombre": "Molde de silicona con tapa y palito para helados",
+    "descripcion": "Cada molde trae palitos reutilizables y tapa.Material anti-adherente. Fácil de lavar. Su flexibilidad facilita desmoldar las preparaciones fácilmente.",
+    "imagen": " ../assets/imagenMoldeSiliconaHelados.webp",
+    "precio":7400,
+    "stock": 6,
+    "categoria": "reposteria",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 18,
+    "nombre": "Canasto colgante organizador para puerta",
+    "descripcion": "Canasto para organizar. Se engancha de la puerta y no requiere instalación.Medidas: 27*9 cm.",
+    "imagen":" ../assets/imagenCanastoOrganizador.jpg" ,
+    "precio": 9900,
+    "stock": 3,
+    "categoria": "organizacion",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 19,
+    "nombre": "Esponja mágica",
+    "descripcion": "Saca las manchas que no pude sacar con nada! se vende por unidad. A medida q la vas usando, se va consumiendo.Origen: Japón.",
+    "imagen": " ../assets/imagenEsponjaMagica.jpeg",
+    "precio": 3900,
+    "stock": 8,
+    "categoria": "bazar",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 20,
+    "nombre": "Dispenser para detergente y esponjita",
+    "descripcion": "Dispenser de detergente con compartimento para esponjas.Es de plástico y silicona. Se desarma para que lo puedas lavar.",
+    "imagen":" ../assets/imagenDispenserDetergente.jpg",
+    "precio": 15000,
+    "stock": 4,
+    "categoria": "organizacion",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+      "id": 21,
+      "nombre": "Bolsa Para lavarropas",
+      "descripcion": "100% poliéster, con cierre.Facilita el lavado en el lavarropa.",
+      "imagen": " ../assets/imagenBolsaLavarropas.jpeg",
+      "precio": 2900,
+      "stock": 8,
+      "categoria": "organizacion",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+    
+  },
+  {
+      "id": 22,
+      "nombre": "Dispenser de jabón",
+      "descripcion": "Lindísimo dispenser de vidrio.Capacidad 500 ml.",
+      "imagen": " ../assets/imagenDispenserJabon.jpeg",
+      "precio": 6900,
+      "stock": 8,
+      "categoria": "organizacion",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+      "id": 23,
+      "nombre": "Limpia vidrios magnético",
+      "descripcion": "El limpia vidrios magnético consta de piezas que se unen mediante un poderoso imán para limpiar y secar ambas caras del cristal al mismo tiempo.",
+      "imagen": " ../assets/imagenLimpiaVidrios.webp",
+      "precio": 9500,
+      "stock": 4,
+      "categoria": "organizacion",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+      "id": 24,
+      "nombre": "Bolsa de ropa al vacío",
+      "descripcion": "Guardá tu ropa cuando cambia la temporada o usalas para aprovechar el espacio de tus valijas al máximo. Tiene una válvula para sacar el aire con la aspiradora. Medidas:70x100",
+      "imagen": " ../assets/imagenBolsaGuardar.jpg",
+      "precio": 4900,
+      "stock": 8,
+      "categoria": "organizacion",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+      "id": 25,
+      "nombre": "Mini luz USB",
+      "descripcion": "La mini luz es ideal para llevarla a donde necesites. Se enchufa en cualquier puerto USB.Características:1 watt.Material: Plástico.Luz blanca",
+      "imagen": " ../assets/imagenMiniLuzUsb.jpg",
+      "precio": 1200,
+      "stock": 8,
+      "categoria": "organizacion",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+      "id": 26,
+      "nombre": "Cepillo sacapelusa",
+      "descripcion": "Cepillo saca pelusa .Material: terciopelo + plástico.Tamaño: 22*5,7 cm.",
+      "imagen": " ../assets/imagenCepilloPelusa.webp",
+      "precio": 3900,
+      "stock": 10,
+      "categoria": "organizacion",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+      "id": 27,
+      "nombre": "Barral colgante encastrable",
+      "descripcion": "Super fácil de instalar. Simplemente encastralo en tu puerta.Medidas: 28 cm de largo x 8 cm de profundidad.",
+      "imagen": " ../assets/imagenBarralColgante.jpeg",
+      "precio": 6700,
+      "stock": 5,
+      "categoria": "organizacion",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+      "id": 28,
+      "nombre": "Tapabombi - estuche para tu bombilla",
+      "descripcion": "Complemento para tu set matero.Llevalo en conjunto con tu Tapamate y evitá toda clase de derrames y salpicaduras.Material:silicona.",
+      "imagen": " ../assets/imagenEstucheBombilla.jpeg",
+      "precio": 5700,
+      "stock": 5,
+      "categoria": "viajes",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+      "id": 29,
+      "nombre": "Set de 6 organizadores para valija",
+      "descripcion": "Vienen tres neceser con doble cierre y tres bolsas con cierre simple.Medidas necesers: 37 x 27 x 12cm,31 x 22 x 12cm,20 x 15 x 12cm.Medidas bolsas:34 x 24cm,27 x 19cm,17 x 13cm.Tela imperneable.",
+      "imagen": " ../assets/imagenSetOrganizadores.webp",
+      "precio": 15700,
+      "stock": 5,
+      "categoria": "viajes",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+      "id": 30,
+      "nombre": "Portadocumentos Loop",
+      "descripcion": "Lleva tus documentos y los de tu familia ordenados. Varios compartimentos para que puedas llevar todo en un mismo lugar. Tela impermeable.Medidas 25 x 17 cm.",
+      "imagen": " ../assets/imagenPortadocumentos.jpg",
+      "precio": 6200,
+      "stock": 5,
+      "categoria": "viajes",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+      "id": 31,
+      "nombre": "Identificador de Mochila o Equipaje",
+      "descripcion": "Decorá tu mochila o la de tus mascotas, con estos lindísimos identificadores. Son 100% de silicona y tienen lugar para poner datos personales por si te la olvidas en algún lado.",
+      "imagen": " ../assets/imagenIdentificadorEquipaje.jpg",
+      "precio": 3200,
+      "stock": 8,
+      "categoria": "viajes",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+      "id": 32,
+      "nombre": "Porta cepillos Granny",
+      "descripcion": "Llevá cubiertos, cepillos de dientes, lapices o lo que quieras, en estos case super versátiles.Medidas: 23 x 2.7 x 3.4 cm.",
+      "imagen": " ../assets/imagenPortaCepillos.jpg",
+      "precio": 1700,
+      "stock": 4,
+      "categoria": "viajes",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+      "id": 33,
+      "nombre": "Neceser Travel",
+      "descripcion": "Neceser con gancho para poder colgarlo.Divisiones elásticas en el interior para sostener los productos.Compartimentos diseñados para mantener las cosas separadas.Material impermeable.Medidas: 20,5 x 9 x 20 cm.",
+      "imagen": " ../assets/imagenNeceserViaje.jpg",
+      "precio": 17700,
+      "stock": 9,
+      "categoria": "viajes",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+      "id": 34,
+      "nombre": "Alhajero para cartera / viajes",
+      "descripcion": "Ideal para llevar en tus viajes o en el bolso del gimnasio.Super delicado y resistente.",
+      "imagen": " ../assets/imagenAlhajeroViajes.jpg",
+      "precio": 15500,
+      "stock": 5,
+      "categoria": "viajes",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+    "id": 35,
+    "nombre": "Lámpara usb",
+    "descripcion": "La lámpara Lu es de metal con un acabado galvanizado y tiene un diseño super distinguido. Está equipada con una batería de polímero de litio de 3000 mAh para q puedas llevarla a donde quieras. Tarda de 3 a 4 horas en cargarse completamente y se puede utilizar de 8 a 12 horas dependiendo del brillo elegido.",
+    "imagen": " ../assets/imagenLamparaUsb.jpg",
+    "precio": 32000,
+    "stock": 5,
+    "categoria": "organizacion",
+    "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  },
+  {
+      "id": 36,
+      "nombre": "Funda sumergible para celular",
+      "descripcion": "Ideal para la playa, el río o donde quieras. Es impermeable, protege tu celular manteniendo la funcionalidad táctil de la pantalla.Incluye una correa de silicona para poder transportarla.",
+      "imagen": " ../assets/imagenFundaCelular.jpg",
+      "precio": 5600,
+      "stock": 7,
+      "categoria": "viajes",
+      "descuento": "10% off por transferencia bancaria o 3 cuotas sin interés"
+  }
+
+
+] 

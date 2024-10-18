@@ -1,0 +1,30 @@
+import { useState, useEffect } from "react";
+import { fetchItemPorId } from "../../utils/fetchData";
+import ItemDetail from "../ItemDetail/ItemDetail";
+import { useParams } from "react-router-dom";
+import Loading from "../Loading/Loading";
+
+const ItemDetailContainer = () => {
+  const [item, setItem] = useState(null);
+  //useParams siempre devuelve el valor como string
+  const [loading, setLoading] = useState(true);
+  const id = useParams().id;
+
+  useEffect(() => {
+    setLoading(true);
+    fetchItemPorId(Number(id))
+      .then((res) => {
+        setItem(res); // Guardamos el producto en el estado
+      })
+      .catch((error) => console.error(error))
+      .finally(() => {
+        setLoading(false);
+      });
+  }, [id]);
+
+  return (
+    <div>{loading ? <Loading /> : item && <ItemDetail item={item} />}</div>
+  );
+};
+
+export default ItemDetailContainer;

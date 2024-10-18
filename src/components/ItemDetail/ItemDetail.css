@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+:root{
+    --background-color: rgb(255, 235, 169) ;
+    --background-light-color : rgb(247, 247, 229);
+    --background-color-gray: rgb(59, 59, 59) ;
+    --background-color-lightGray:rgb(229, 226, 226);
+    --clr-black: #242424;
+    --clr-white: #f3f3f3;
+}
+ 
+.producto-detalle {
+    padding-block: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+  }
+
+.producto-imagen-descripcion > img {
+    width: 70%;
+}
+
+.categoria{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+  
+   
+}
+.producto-imagen-descripcion{
+    display:flex;
+    flex-direction: column;
+  
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+}
+
+
+.title-producto-detalle{
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.precio-producto-detalle{
+    font-size: 2rem;
+    display: flex;
+    align-items: left;
+}
+
+.descuento-item{
+    margin-top: 1.5rem;
+}
+
+.descripcion{
+    margin-top: 1.5rem;
+}
+
+.return a {
+    text-decoration: none;
+    color:var(--background-color-gray);
+    
+}
+.return{
+    margin-top: 2rem;
+}
+
+.i bi bi-arrow-return-left::before{
+    color:var(--clr-black);
+    font-size: 2rem;
+}
+
+@media (max-width: 880px) {
+    .producto-detalle {
+        grid-template-columns: 1fr; 
+        
+    }
+    .producto-imagen-descripcion{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .producto-imagen-descripcion > img {
+        width: 60%; 
+        
+    }
+    .card-detalle{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descripcion{
+        padding-inline: 2rem;
+    }
+
+    .title-producto-detalle,
+    .precio-producto-detalle,
+    .descuento-item,
+    .categoria{
+        margin-left: 2rem;
+    }
+}    
